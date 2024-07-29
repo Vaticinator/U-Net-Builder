@@ -60,13 +60,13 @@ Numbers of corresponding blocks to run.
 In case the amount is > 1 and corresponding u_blocks_resize is 'D' or 'U' then the change of height, width and number of features occurs in the first block.
 
 **u_blocks_variant**
-C -> Convolution block
-R -> Residual block
-E -> Squeeze Excitation Residual block
-A -> Position Attention + Scaled Dot Product Attention (it supports only resize 'N')
-T -> Criss Cross Attention block (it supports only resize 'N')
+* C -> Convolution block
+* R -> Residual block
+* E -> Squeeze Excitation Residual block
+* A -> Position Attention + Scaled Dot Product Attention (it supports only resize 'N')
+* T -> Criss Cross Attention block (it supports only resize 'N')
 
 **u_blocks_resize**
-D -> downsample (halve the height and width but double the number of features)
-U -> upsample (double the height and width but halve the number of features)
-N -> none (keep unchanged height, width and the number of features)
+* D -> downsample (halve the height and width but double the number of features)
+* U -> upsample (double the height and width but halve the number of features)
+* N -> none (keep unchanged height, width and the number of features)
