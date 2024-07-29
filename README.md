@@ -1,6 +1,7 @@
 # U-Net-Builder
 Quickly create various types of U-Net networks.
 
+**This is a development version and may contain errors.**
 
 
 ## Usage example
@@ -70,3 +71,7 @@ In case the amount is > 1 and corresponding u_blocks_resize is 'D' or 'U' then t
 * D -> downsample (halve the height and width but double the number of features)
 * U -> upsample (double the height and width but halve the number of features)
 * N -> none (keep unchanged height, width and the number of features)
+
+**u_connected**
+True -> Concatenate downsampled tensors with upsampled tensors from both sides of U.
+False -> Do not concatenate downsampled tensors with upsampled tensors from both sides of U.
