@@ -73,5 +73,5 @@ In case the amount is > 1 and corresponding u_blocks_resize is 'D' or 'U' then t
 * N -> none (keep unchanged height, width and the number of features)
 
 **u_connected**
-True -> Concatenate downsampled tensors with upsampled tensors from both sides of U.
-False -> Do not concatenate downsampled tensors with upsampled tensors from both sides of U.
+* True -> Concatenate downsampled tensors with upsampled tensors from both sides of U.
+* False -> Do not concatenate downsampled tensors with upsampled tensors from both sides of U.
