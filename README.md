@@ -1,7 +1,7 @@
 # U-Net-Builder
 Quickly create various types of U-Net networks.
 
-**This is a development version and may contain errors.**
+**This is a development version and may contain errors but at its core idea it works.**
 
 
 ## Usage example
